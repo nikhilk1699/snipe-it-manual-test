@@ -17,3 +17,34 @@
 ![4](https://github.com/nikhilk1699/snipe-it-manual-test/assets/109533285/0aa0e063-e32e-4904-872a-8c536f2441cf)
 ![5](https://github.com/nikhilk1699/snipe-it-manual-test/assets/109533285/2a5de906-4b10-4718-b082-03400abb0df4)
 ![6](https://github.com/nikhilk1699/snipe-it-manual-test/assets/109533285/338eb4dd-0f73-466c-affc-3dd4a6529093)
+
+### update he packages using root user by running below command
+```
+apt update
+```
+### Installation apache2 using shell script
+#### vi apache2-setup.sh
+
+```
+#!/bin/bash
+
+# Install Apache2
+sudo apt install apache2 -y
+
+# Start Apache2 and enable it on boot
+systemctl start apache2
+systemctl enable apache2
+
+# Check the status of Apache2
+systemctl status apache2
+
+# Enable mod_rewrite for Apache2
+sudo a2enmod rewrite
+
+# Restart Apache2 to apply the changes
+systemctl restart apache2
+
+# Display a message
+echo "Apache2 installation and configuration completed."
+```
+
