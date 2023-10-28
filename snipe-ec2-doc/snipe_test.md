@@ -101,7 +101,7 @@ $ apt install php php-bcmath php-bz2 php-intl php-gd php-mbstring php-mysql php-
 ![php_install](https://github.com/nikhilk1699/snipe-it-manual-test/assets/109533285/190d41de-c6db-46b5-881f-0be70f1cfd71)
 ![php-2](https://github.com/nikhilk1699/snipe-it-manual-test/assets/109533285/013fbd02-276b-4d98-be22-b01a7a7e5136)
 
-##### you run a command to install PHP and a basic set of extensions. Then, you run another command to make sure you have all the additional extensions needed for a software. basically adding PHP and its extensions to your system to make it compatible with Snipe-IT.
+***you run a command to install PHP and a basic set of extensions. Then, you run another command to make sure you have all the additional extensions needed for a software. basically adding PHP and its extensions to your system to make it compatible with Snipe-IT.***
 
 ### To install PHP Composer for Snipe-IT, you can follow these steps
 ```
@@ -113,7 +113,7 @@ $ mv composer.phar /usr/local/bin/composer
 ```
 ![compo](https://github.com/nikhilk1699/snipe-it-manual-test/assets/109533285/ff879e8e-e35d-4f32-b48d-ea710ae6cd8b)
 
-#### By moving Composer to /usr/local/bin, you make it globally accessible to all users.
+***By moving Composer to /usr/local/bin, you make it globally accessible to all users.***
 
 ### To create a database in MariaDB for Snipe-IT
 #### Make sure you have access to MariaDB with the root user.
