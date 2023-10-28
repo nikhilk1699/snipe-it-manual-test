@@ -27,9 +27,8 @@ apt update
 ```
 mkdir scripts
 cd scripts
+vi apache2-setup.sh
 ```
-#### vi apache2-setup.sh
-
 ```
 #!/bin/bash
 
@@ -64,7 +63,9 @@ chmod +x apache2-setup.sh #give executable permission
 ![9](https://github.com/nikhilk1699/snipe-it-manual-test/assets/109533285/eb8bea3c-9821-4762-a094-550a4be295dd)
 
 ### Installation MySql/mariadb using shell script
-#### vi mariadb-setup.sh
+```
+vi mariadb-setup.sh
+```
 ```
 #!/bin/bash
 
@@ -80,13 +81,17 @@ sudo systemctl status mariadb
 
 # secure the installation of the MySQL 
 sudo mysql_secure_installation
-
+```
+### Run following command for above apache2 script 
+```
+chmod +x mariadb-setup.sh #give executable permission
+./mariadb-setup.sh
 ```
 ![10](https://github.com/nikhilk1699/snipe-it-manual-test/assets/109533285/dcae797c-769b-49d4-a4ca-2a35acf9766c)
 ![11](https://github.com/nikhilk1699/snipe-it-manual-test/assets/109533285/4b43bdd9-8763-4bbb-88cf-ee3dc03356de)
 ![11-1](https://github.com/nikhilk1699/snipe-it-manual-test/assets/109533285/9d051aab-de64-4235-bc9c-1eb9d80c4459)
 
-##### you'll secure your MySQL installation by setting a strong root password, removing anonymous users, disallowing remote root login, and removing the test database, which is protecting your MySQL server.
+**you'll secure your MySQL installation by setting a strong root password, removing anonymous users, disallowing remote root login, and removing the test database, which is protecting your MySQL server.**
 
 ### installation of PHP
 ```
@@ -178,7 +183,7 @@ $ php artisan key:generate
 ```
 ![application-key](https://github.com/nikhilk1699/snipe-it-manual-test/assets/109533285/ca832d8b-5703-4f42-9523-2b2331e08f9f)
 
-note we installed Composer and generated an APPKEY to configure our web application.
+***note we installed Composer and generated an APPKEY to configure our web application.***
 
 ### Disable Default Virtual Host
 #### You turn off the default web configuration on your server using the following command
@@ -203,7 +208,7 @@ allow from all
 ```
 ![image](https://github.com/nikhilk1699/snipe-it-manual-test/assets/109533285/a2b5b38b-ff76-4df3-834b-6068b0067489)
 
-#### this configuration, you specify how the server should handle requests for your Snipe-IT website, including where the website files are located.
+***this configuration, you specify how the server should handle requests for your Snipe-IT website, including where the website files are located.***
 
 ### Enable Snipe-it configuration
 ```
