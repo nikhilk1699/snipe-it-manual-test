@@ -232,7 +232,7 @@ systemctl restart apache2
 ![snipsuceesfil](https://github.com/nikhilk1699/snipe-it-manual-test/assets/109533285/76437458-cbad-4beb-9f45-04e71f37d13d)
 
 
-## Sucessfully deploy application ec2 instance
+***Sucessfully deploy application ec2 instance***
 
 
 
