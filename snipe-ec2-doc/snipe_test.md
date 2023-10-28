@@ -183,7 +183,7 @@ $ php artisan key:generate
 ```
 ![application-key](https://github.com/nikhilk1699/snipe-it-manual-test/assets/109533285/ca832d8b-5703-4f42-9523-2b2331e08f9f)
 
-***note we installed Composer and generated an APPKEY to configure our web application.***
+***we installed Composer and generated an APPKEY to configure our web application.***
 
 ### Disable Default Virtual Host
 #### You turn off the default web configuration on your server using the following command
